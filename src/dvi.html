@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project passport</title>
+</head>
+
+<body content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <h1>CPP7_MPL-1</h1>
+  <div>
+    <h2>Общее введение</h2>
+    <div id="introduction">
+      <ul>
+        <h3>Программа предоставляет возможность:</h3>
+        <li>формировать и обучать модели нейронных сетей <br>
+          для классификации рукописных букв латинского алфавита;</li>
+        <li>иметь от 2 до 5 скрытых слоев;</li>
+        <li>использовать сигмоидальную функцию активации для каждого скрытого слоя;</li>
+        <li>иметь возможность обучаться на открытом датасете.</li>
+      </ul>
+      <ul>Дополнительно:</h3>
+        <li>реализован перцпетрон двумя способами:<br>
+          - в матричном виде (все слои представлены в виде матриц весов)<br>
+          - в графовом виде (каждый нейрон представляется в виде некоторого объекта узла, <br>
+          связанного с другими узлами по ссылкам)</li>
+      </ul>
+    </div>
+    <br>
+    <div id="make_targ">
+      <ul>
+        <h3>make targets:</h3>
+        <li>all - сборка программы</li>
+        <li>install - установка программы в катлог src/bin</li>
+        <li>unistall - удаляет программу из каталога установки</li>
+        <li>clean - очистка каталога src от файлов сборки программы</li>
+        <li>dvi - вывод паспорта проекта</li>
+        <li>dist - создание архива .tar с файлами проекта</li>
+        <li>tests - собирает и запускает unit-тесты</li>
+        <li>gcov_report - отображение информации о покрытии backend unit-тестами</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
